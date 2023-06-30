@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ZoornaHotel</string>
+    <string name="gender_spinner_description">Select gender</string>
+
+    <string-array name="genders_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
 </resources>

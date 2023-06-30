@@ -6,11 +6,12 @@ plugins {
 android {
     namespace 'firstlook.jihad.zoornahotel'
     compileSdk 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "firstlook.jihad.zoornahotel"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -32,6 +33,8 @@ android {
 dependencies {
     implementation 'com.google.firebase:firebase-analytics'
     implementation platform('com.google.firebase:firebase-bom:32.1.1')
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-database:20.0.1'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
