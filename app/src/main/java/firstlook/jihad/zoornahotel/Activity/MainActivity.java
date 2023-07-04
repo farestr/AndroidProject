@@ -1,4 +1,4 @@
-package firstlook.jihad.zoornahotel;
+package firstlook.jihad.zoornahotel.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import firstlook.jihad.zoornahotel.R;
 
 public class MainActivity extends AppCompatActivity {
     private EditText editTextEmail;

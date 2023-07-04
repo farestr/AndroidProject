@@ -1,4 +1,4 @@
-package firstlook.jihad.zoornahotel;
+package firstlook.jihad.zoornahotel.models;
 
 import java.util.Date;
 

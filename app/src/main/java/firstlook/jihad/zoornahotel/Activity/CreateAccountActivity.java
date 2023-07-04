@@ -1,4 +1,4 @@
-package firstlook.jihad.zoornahotel;
+package firstlook.jihad.zoornahotel.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +17,9 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+
+import firstlook.jihad.zoornahotel.R;
+import firstlook.jihad.zoornahotel.models.User;
 
 public class CreateAccountActivity extends AppCompatActivity {
     private EditText editTextName;
