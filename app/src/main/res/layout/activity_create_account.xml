@@ -9,15 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"
-        android:minHeight="48dp"/>
-
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:minHeight="48dp"/>
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -25,8 +24,7 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:minHeight="48dp"
-        />
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/textViewDateOfBirth"
@@ -35,7 +33,7 @@
         android:layout_below="@id/editTextPassword"
         android:text="Date of Birth" />
 
-    <TextView
+    <EditText
         android:id="@+id/editTextDateOfBirth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,25 +41,24 @@
         android:clickable="true"
         android:focusable="false"
         android:focusableInTouchMode="false"
-        android:contentDescription="Date of Birth"
-        android:minHeight="48dp"/>
-
+        android:hint="Date of Birth"
+        android:minHeight="48dp"
+        android:inputType="none"
+        android:onClick="showDatePickerDialog" />
 
     <Spinner
         android:id="@+id/spinnerGender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/gender_spinner_description"
-        android:minHeight="48dp"/>
-
-
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Phone"
-        android:minHeight="48dp"/>
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/buttonCreateAccount"

@@ -10,7 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import firstlook.jihad.zoornahotel.Activity.CreateAccountActivity;
 import firstlook.jihad.zoornahotel.R;
+import firstlook.jihad.zoornahotel.Activity.RoomActivity;
 
 public class MainActivity extends AppCompatActivity {
     private EditText editTextEmail;
@@ -45,8 +47,17 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
+                // Perform login authentication here
+                boolean loginSuccessful = performLogin(email, password);
 
-                Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
+                if (loginSuccessful) {
+                    Toast.makeText(getApplicationContext(), "Login successful", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, RoomActivity.class);
+                    startActivity(intent);
+                    finish();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Login failed", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -57,5 +68,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    // Method to perform login authentication (dummy implementation)
+    private boolean performLogin(String email, String password) {
+        // Replace this with your actual login authentication logic
+        // For demonstration purposes, return true if email is "admin" and password is "admin"
+        return email.equals("admin") && password.equals("admin");
     }
 }
