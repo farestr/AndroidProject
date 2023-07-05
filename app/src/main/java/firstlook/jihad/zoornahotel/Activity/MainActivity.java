@@ -10,9 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import firstlook.jihad.zoornahotel.Activity.CreateAccountActivity;
 import firstlook.jihad.zoornahotel.R;
-import firstlook.jihad.zoornahotel.Activity.RoomActivity;
 
 public class MainActivity extends AppCompatActivity {
     private EditText editTextEmail;
