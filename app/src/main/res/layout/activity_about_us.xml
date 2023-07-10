@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoorna Hotel Reservation App"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appNameTextView"
+        android:layout_marginTop="16dp"
+        android:text="Welcome to Zoorna Hotel Reservation App! We are delighted to provide you with a seamless and convenient way to book your stay at our luxurious hotel. Whether you're planning a business trip or a leisurely vacation, Zoorna Hotel is the perfect choice for an unforgettable experience."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/featuresTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="16dp"
+        android:text="Key Features of Zoorna Hotel Reservation App:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/featuresListTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/featuresTextView"
+        android:layout_marginTop="8dp"
+        android:text="- Easy and Convenient Booking: Our user-friendly app allows you to effortlessly browse through available rooms, select your desired dates, and make quick reservations.\n\n- Diverse Room Options: Choose from a wide range of room types to suit your preferences, including deluxe suites, spacious family rooms, and cozy single rooms.\n\n- Seamless Check-in and Check-out: Enjoy a hassle-free check-in process and seamless check-out experience, ensuring a smooth transition during your stay.\n\n- Exclusive Deals and Promotions: Stay up-to-date with our latest offers, discounts, and special packages to enhance your stay and make it even more memorable.\n\n- Personalized Services: Our dedicated staff is committed to providing personalized services, ensuring that your needs are met and your stay is tailored to your preferences."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/featuresListTextView"
+        android:layout_marginTop="16dp"
+        android:text="We value your feedback and strive for continuous improvement to enhance your experience with Zoorna Hotel Reservation App. If you have any suggestions, questions, or concerns, please don't hesitate to contact us. We are here to assist you and make your stay as enjoyable as possible."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/thankYouTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedbackTextView"
+        android:layout_marginTop="16dp"
+        android:text="Thank you for choosing Zoorna Hotel Reservation App. We look forward to welcoming you and providing you with an exceptional stay."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/teamTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thankYouTextView"
+        android:layout_marginTop="16dp"
+        android:text="The Zoorna Hotel Team"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/contactUsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us" />
+
+</RelativeLayout>

@@ -33,6 +33,12 @@
         <activity android:name=".Activity.ReservationActivity" />
         <activity android:name=".Activity.PaymentActivity" />
         <activity android:name=".Activity.ConfirmationActivity" />
+        <activity
+            android:name=".Activity.AboutUsActivity"/>
+
+        <activity
+            android:name=".Activity.ContactUsActivity" />
+
 
     </application>
 
